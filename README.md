@@ -20,11 +20,6 @@ I build production-grade AI systems that combine LLMs, automation, and real-worl
 - SQLite-based user management with trial/subscription tiers
 - Production-ready: async/await, error handling, logging
 
-### [Life OS](https://github.com/botus-ai/life-os)
-**Personal operating system for managing work and life**
-- Built on OpenClaw framework for agentic workflows
-- Integrates Notion, Google Calendar, Telegram
-- Multi-agent orchestration (CEO, Meetus, Mozgus bots)
 
 ### [AI Automation Tools](https://github.com/botus-ai/ai-automation-tools)
 **Production-ready tools for automating tasks with AI**
