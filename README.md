@@ -21,12 +21,6 @@ I build production-grade AI systems that combine LLMs, automation, and real-worl
 - Production-ready: async/await, error handling, logging
 
 
-### [AI Automation Tools](https://github.com/botus-ai/ai-automation-tools)
-**Production-ready tools for automating tasks with AI**
-- Meeting transcription + analysis pipeline
-- Task execution with safety guardrails
-- Multi-provider LLM support (OpenAI, Groq, Ollama)
-
 ---
 
 ## 💻 Tech Stack
