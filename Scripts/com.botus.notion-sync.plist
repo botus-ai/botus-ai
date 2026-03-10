@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.botus.notion-sync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/botus_bbot/Scripts/notion_sync.py</string>
+    </array>
+
+    <!-- Запускать при загрузке системы -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Повторять каждые 15 минут (900 секунд) -->
+    <key>StartInterval</key>
+    <integer>900</integer>
+
+    <!-- Лог вывода -->
+    <key>StandardOutPath</key>
+    <string>/Users/botus_bbot/Scripts/logs/notion_sync.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/botus_bbot/Scripts/logs/notion_sync.err</string>
+
+    <!-- Переменные окружения -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/botus_bbot</string>
+    </dict>
+
+    <!-- Перезапускать если упало -->
+    <key>KeepAlive</key>
+    <false/>
+</dict>
+</plist>
