@@ -10,7 +10,7 @@ Notion Auto-Sync v2.0
 
 Запуск: python3 ~/Scripts/notion_sync.py
 Автозапуск: launchd (каждые 15 минут)
-Зависимости: pip3 install requests icalendar pytz --break-system-packages
+Зависимости: pip3 install requests icalendar pytz --user
 
 НЕ зависит от OpenClaw. Работает сам.
 """
